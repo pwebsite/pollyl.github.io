@@ -93,7 +93,7 @@ a {
 }
 
 #intro1 {
-    margin-top: 35px;
+    margin-top: 50px;
 }
 #intro2 {
 /*    background: url(../img/story_img3.jpg) center center;*/
@@ -197,6 +197,7 @@ a {
 
 .section-heading {
 	margin-bottom: 30px;
+    letter-spacing: 1.75px;
 }
 
 .section-heading-spacer {
