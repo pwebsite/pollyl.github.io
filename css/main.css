@@ -143,8 +143,8 @@ a {
 .intro-message > h1 {
 	margin: 0;
 	font-size: 5em;
-	text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.3);
-    letter-spacing: 2.8px;
+	text-shadow: 1.3px 1.3px 1.8px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
 }
 
 .intro-divider {
