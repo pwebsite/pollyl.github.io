@@ -124,7 +124,7 @@ a {
 .story p {
     position: relative;
     top: 50%;
-    padding-top: 25%;
+    padding: 10% 5%;
 }
 
 .intro-message {
