@@ -105,20 +105,15 @@ a {
 }
 
 #intro3 {
-    background: url(../img/story_img4.jpg) center center;
+    background: url(../img/story_img5.jpg) center center;
     background-repeat: no-repeat;
     background-size: cover;
 	text-align: center;
     height: 600px;
 }
 
-#story_img1, #story_img2, #story_img3{
+#story_img1, #story_img2, #story_img3, #story_img4{
     width: 100%;
-}
-
-#story_img3{
-    width: 100%;
-    height: auto;
 }
 
 .story {
