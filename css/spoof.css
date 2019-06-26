@@ -1,0 +1,359 @@
+
+/*start custom font CSS*/
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+h1, h2 {
+	font-family: 'Vidaloka', serif;
+	font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3, h4, h5, h6 {
+	font-family: 'Vidaloka', serif;
+	font-weight: 700;
+}
+
+.navbar-brand {
+	font-family: 'Vidaloka', serif;
+	font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+.navbar-default .navbar-brand {
+    color: #8F8F8B;
+}
+
+
+/*start custom color CSS*/
+
+a {
+    color: #857A51;
+}
+
+.blue {
+    color: #002785;
+}
+
+.gold {
+    color: #997800;
+}
+
+.lightgray {
+    color: #8F8F8B;
+}
+
+/*start custom CSS*/
+
+.hidden {
+    visibility: hidden;
+}
+
+.login {
+    z-index: 100;
+}
+
+.lead {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.intro-header {
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	color: #002785;
+    background-color: #3399ff;
+    background: url(../img/spoof/cross-eye.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: center;
+	text-align: center;
+    letter-spacing: 1.5px;
+    height: 550px;
+}
+
+.intro-header h3 {
+    font-family: 'Lato', serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#intro1 {
+    margin-top: 50px;
+}
+
+#intro2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 600px;
+}
+
+#intro3 {
+    background: url(../img/spoof/snow_ditch.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 600px;
+}
+
+img{
+    width: 100%;
+    padding: 5%;
+}
+
+.story {
+    padding: 25px;
+    text-align: center;
+}
+
+.story p {
+    position: relative;
+    top: 50%;
+    padding: 1% 5%;
+}
+
+
+.intro-message {
+	position: relative;
+    text-align: center;
+    padding-top: 5%;
+	padding-bottom: 5%;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.intro-message > h1 {
+	margin: 0;
+	font-size: 5em;
+	text-shadow: 1.3px 1.3px 1.8px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+}
+
+.intro-divider {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message > h3 {
+    color: #666666;
+    font-weight: 200;
+    letter-spacing: 0.8px;
+    margin-top: 30px;
+}
+
+.button {
+    background-color: #997800;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: white;
+    background-color: #969696;
+    
+}
+
+@media (max-width: 767px) {
+	.intro-message {
+		padding-bottom: 15%;
+	}
+
+	.intro-message > h1 {
+		font-size: 3em;
+	}
+
+	ul.intro-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.intro-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}
+
+	.intro-divider {
+		width: 100%;
+	}
+}
+
+.network-name {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 4px;
+}
+
+.content-section-a {
+	background-color: #f8f8f8;
+	padding: 50px 0;
+}
+
+.content-section-b {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 50px 0;
+}
+
+.content-subsection-a {
+    padding-bottom: 50px;
+    padding-right: 5%;
+}
+
+.content-subsection-b {
+    padding-right: 5%;
+}
+
+.section-heading {
+	margin-bottom: 30px;
+    letter-spacing: 1.75px;
+}
+
+.section-heading-spacer {
+	border-top: 3px solid #e7e7e7;
+	width: 200px;
+	float: left;
+}
+
+.banner {
+	padding: 100px 0;
+	color: #f8f8f8;
+	background: url(../img/banner-bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.banner h2 {
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 3em;
+}
+
+.banner ul {
+	margin-bottom: 0;
+}
+
+.banner-social-buttons {
+	float: right;
+	margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+	ul.banner-social-buttons {
+		float: left;
+		margin-top: 15px;
+	}	
+}
+
+@media (max-width: 767px) {
+	.banner h2 {
+		margin: 0;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+		font-size: 3em;
+	}
+
+	ul.banner-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.banner-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}	
+}
+
+footer {
+	background-color: #f8f8f8;
+	padding: 50px 0;
+}
+
+p.copyright {
+	margin: 15px 0 0;
+}
+
+
+.profile-img-div {
+    margin: 2%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-img-div img{
+    z-index: 1031;
+}
+
+.contact {
+    text-align: center;
+}
+
+.back-to-top {
+    background: url(../img/back_to_top.png) no-repeat center center;
+}
+
+.nav-item {
+    text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+
+.footer-item {
+    text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+a:hover {
+    color: #969696;
+    text-decoration: none;
+}
+
+.registry-links {
+    padding: 10px;
+    float: right;
+}
+
+.registry-img {
+    max-width: 300px;
+    min-height: 100px;
+    padding: 10px;
+}
+
+
+#outro {
+    background: url(../img/spoof/scuba.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 600px;
+}
+
+iframe {
+    width: 90%;
+}
