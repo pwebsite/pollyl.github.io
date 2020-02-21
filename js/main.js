@@ -15,17 +15,17 @@ $(document).ready(function(){
 	});
     
     // password login popup
-    var password = "1219";
-    var get_user_input = function() {
-        var user_input = window.prompt("Welcome to Bridget and Brent's wedding website! Please enter password to continue.");
-        if (user_input == password) {
-            document.getElementsByClassName("hidden")[0].className = "";
-        } else {
-            get_user_input();
-        }
-    }
-    get_user_input();
-    
+//    var password = "1219";
+//    var get_user_input = function() {
+//        var user_input = window.prompt("Welcome to Bridget and Brent's wedding website! Please enter password to continue.");
+//        if (user_input == password) {
+//            document.getElementsByClassName("hidden")[0].className = "";
+//        } else {
+//            get_user_input();
+//        }
+//    }
+//    get_user_input();
+//    
 });
 
 
